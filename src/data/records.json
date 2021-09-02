@@ -1,0 +1,114 @@
+[
+  {
+    "p": {
+      "start": {
+        "identity": 1,
+        "labels": [
+          "per"
+        ],
+        "properties": {
+          "name": "小蒲"
+        }
+      },
+      "end": {
+        "identity": 0,
+        "labels": [
+          "Person"
+        ],
+        "properties": {
+          "name": "蒲昊苒",
+          "age": 18
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 1,
+            "labels": [
+              "per"
+            ],
+            "properties": {
+              "name": "小蒲"
+            }
+          },
+          "relationship": {
+            "identity": 1,
+            "start": 1,
+            "end": 0,
+            "type": "rela2",
+            "properties": {
+              "name": "本名"
+            }
+          },
+          "end": {
+            "identity": 0,
+            "labels": [
+              "Person"
+            ],
+            "properties": {
+              "name": "蒲昊苒",
+              "age": 18
+            }
+          }
+        }
+      ],
+      "length": 1
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "Person"
+        ],
+        "properties": {
+          "name": "蒲昊苒",
+          "age": 18
+        }
+      },
+      "end": {
+        "identity": 1,
+        "labels": [
+          "per"
+        ],
+        "properties": {
+          "name": "小蒲"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "Person"
+            ],
+            "properties": {
+              "name": "蒲昊苒",
+              "age": 18
+            }
+          },
+          "relationship": {
+            "identity": 0,
+            "start": 0,
+            "end": 1,
+            "type": "rela",
+            "properties": {
+              "name": "绰号"
+            }
+          },
+          "end": {
+            "identity": 1,
+            "labels": [
+              "per"
+            ],
+            "properties": {
+              "name": "小蒲"
+            }
+          }
+        }
+      ],
+      "length": 1
+    }
+  }
+]
